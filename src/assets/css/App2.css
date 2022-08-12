@@ -1,0 +1,116 @@
+ .App {
+  text-align: left;
+}
+.App-div1 {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.App-div3 {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.App-div4 {  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.App-label1 {  
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.App-label2 {  
+  text-align: center;
+  font-size: 15px; 
+  line-height: 0.1;
+   word-wrap: break-word;
+}
+.App-label3 {  
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;  
+   word-wrap: break-word;
+
+}
+.App-label4 {  
+  /*background-color: #888888;*/
+  width: 100%;
+  color: #00B90B;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  font-size: 17px;  
+   word-wrap: break-word; 
+}
+.App-caja  { 
+
+  line-height: 1;
+  text-align: left;
+  margin:0 0 25px;
+  width: 350px;
+  overflow:hidden;
+  padding:15px;
+   
+}
+.App-caja-login { 
+
+  line-height: 1;
+  text-align: center;
+  margin:0 0 25px;
+  width: 350px;
+  overflow:hidden;
+  padding:15px;
+  background-color:#FFFFFF;
+  border:1px solid #afcde3;
+  -webkit-border-radius: 5px;
+  border-radius: 15px;
+}
+.App-div2 {  
+  background-color: #25ACCD;
+  width: 100%;
+  height: 250px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.App-section { 
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-header {
+  background-color: #FFFFFF ;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
