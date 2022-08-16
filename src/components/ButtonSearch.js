@@ -24,7 +24,7 @@ class ButtonSearch extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label> 
-          <Imput2 type="text" value={this.state.value} onChange={this.handleChange} />
+          <Imput2 radius="5px" type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
         <ButtonIr type="submit">Ir</ButtonIr>
       </form>

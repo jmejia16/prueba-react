@@ -4,7 +4,7 @@ import styled from 'styled-components';
   background: ${props => props.color} ;
    height: 40px;
    font-size: 12pt;
-  border-radius: 5px;
+  border-radius: ${props => props.borderradius};
   border: 2px solid ${props => props.bordercolor} ;
   color: ${props => props.textcolor};
   font-weight: bold;
